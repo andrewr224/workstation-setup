@@ -656,3 +656,22 @@ If you fail to install proper version, you will get "version `XCRYPT_2.0` not fo
 [youtube](https://www.youtube.com/watch?v=WWg8q_f7nI4)
 ## Video camera - smartphone
 [Irium](https://iriun.com/)
+
+## Default audio (after installing Irium)
+First, let's get a list of the available audio output devices (sinks) using the pactl command:
+```
+$ pactl list short sinks
+
+```
+Use `pactl set-default-sink ${devise name}` to set the default input device, and copy this command.
+
+Add to "Startup Applications" to make this permanent:
+
+Open the application "Startup Applications" 
+Click on "Add"
+Give your startup item a name
+Copy your command from above into the command field.
+Click on "Save".
+
+
+
