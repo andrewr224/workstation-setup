@@ -46,6 +46,10 @@ yarn --version
 ## Bluetooth
 ## Spacemacs
 Install Emacs (Terminal) from pop!_shop
+Install Emacs from spans:
+```
+sudo snap install emacs --classic
+```
 
 Install [spacemacs](https://www.spacemacs.org/)
 
